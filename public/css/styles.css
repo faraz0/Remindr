@@ -1,0 +1,125 @@
+html,
+body {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  /* align-items: center; */
+  padding-top: 10px;
+  /* padding-bottom: 40px; */
+  background-color: black;
+}
+
+
+h3 {
+  position: relative;
+  left: 90px;
+  bottom:80px;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+}
+
+div.row {
+  margin-bottom: 120px;
+}
+
+form {
+  width: 50%;
+  position: relative;
+  left: 120px;
+}
+p.main {
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+  padding-left: 95px;
+  text-align: left;
+  line-height: 2;
+
+}
+
+ h1 {
+  position: relative;
+  left: 60px;
+  margin-bottom: 20px;
+
+  /* font-family: 'Montserrat', sans-serif; */
+}
+
+/* .form-signin {
+  max-width: 800px;
+  padding: 55px;
+} */
+
+/* .form-signin .form-floating:focus-within {
+  z-index: 2;
+} */
+label {
+  text-align: left;
+}
+
+input.form-control {
+  border-radius: 0;
+}
+
+#floatingDate  {
+  /* margin-bottom: 10px; */
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+#floatingName {
+  /* margin-bottom: 0; */
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+
+}
+
+button.btnn {
+  padding: 10px;
+}
+
+
+/* animated text */
+/* HTML CSSResult Skip Results Iframe
+EDIT ON */
+.animate-charcter
+{
+/* font-family: 'Roboto Slab', serif; */
+font-family: 'Montserrat', sans-serif;
+
+  /* line-height: 1.2; */
+  font-size: 66px;
+  text-align: left;
+   /* text-transform: uppercase; */
+  background-image: linear-gradient(
+    -20deg,
+    #231557 0%,
+    #44107a 9%,
+    #ff1361 67%,
+    #fff800 90%
+  );
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  color: #fff;
+  background-clip: text;
+  text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 20s linear infinite;
+  display: inline-block;
+  /* font-size: 60px; */
+  padding-left: 30px;
+
+}
+
+@keyframes textclip {
+  to {
+    background-position: 200% center;
+  }
+}
+
+
+/* Resources1× 0.5× 0.25×Rerun */
